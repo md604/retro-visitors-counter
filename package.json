@@ -1,0 +1,24 @@
+{
+  "name": "image_counter",
+  "version": "1.0.0",
+  "description": "Retro site counter",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "counter": "node src/server.js",
+    "page": "node src/web.js"
+  },
+  "keywords": [
+    "hit-counter",
+    "site-counter",
+    "counter",
+    "site-statistic"
+  ],
+  "author": "Maxim Dyuzhinov",
+  "license": "ISC",
+  "dependencies": {
+    "sharp": "^0.32.6",
+    "uid-safe": "^2.1.5"
+  }
+}
